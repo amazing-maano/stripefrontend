@@ -40,7 +40,7 @@ class Landing extends Component {
 
                 <div className='text-center' style={{ fontWeight: 'bold' }}>
                   <Button
-                    onClick={() => this.subscribe(process.env.BASIC)}
+                    onClick={() => this.subscribe('price_1Hk62VDhRIY5Kn5LCSn5IRTn')}
                     className='#74FBD3'
                   >
                     Subscribe
@@ -60,10 +60,10 @@ class Landing extends Component {
                     Battery recycling service for less than 10 to 20 batteries a
                     month
                   </p>
-                </div>
+                  </div>
                 <div className='text-center'>
                   <Button
-                    onClick={() => this.subscribe(process.env.PREMIUM)}
+                    onClick={() => this.subscribe('price_1HpFN1DhRIY5Kn5LwHPaVQXbs')}
                     className='#74FBD3'
                   >
                     Subscribe
